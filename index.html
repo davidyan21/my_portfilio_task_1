@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+      name="description"
+      content="כרטיס הביקור הדיגיטלי של דוד יאנובסקי"
+    >
+    <title>דוד יאנובסקי | Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <input
+      class="theme-checkbox"
+      type="checkbox"
+      id="theme-toggle"
+      aria-label="החלפת מצב תצוגה"
+    >
+
+    <div class="page">
+      <header class="site-header">
+        <div class="container header-content">
+
+          <a class="logo" href="#home">
+            <span class="logo-mark" aria-hidden="true">DAVID</span>
+            דוד יאנובסקי
+          </a>
+
+          <nav class="main-nav" aria-label="ניווט ראשי">
+            <ul>
+              <li><a href="#about">אודות</a></li>
+              <li><a href="#skills">כישורים</a></li>
+              <li><a href="#projects">פרויקטים</a></li>
+              <li><a href="#contact">יצירת קשר</a></li>
+            </ul>
+          </nav>
+
+          <label class="theme-button" for="theme-toggle">
+            <span class="dark-label">Dark Mode</span>
+            <span class="light-label">Bright Mode</span>
+          </label>
+
+        </div>
+      </header>
+
+      <main class="container">
+
+        <section class="intro" id="home">
+          <div class="intro-text">
+
+            <p class="small-title">היי, אני</p>
+
+            <h1>דוד יאנובסקי</h1>
+
+            <p class="role">
+              סטודנט למדמ"ח במכללה למנהל
+            </p>
+
+            <p>
+              אני דוד, סטודנט שנה ב' למדעי המחשב במכללה למנהל.
+              במקביל ללימודים, אני עובד בתחום הפיתוח והאינטגרציה
+              וצובר ניסיון מעשי בסביבה טכנולוגית.
+            </p>
+
+            <div class="intro-actions">
+              <a class="button" href="#projects">
+                הפרויקטים שלי
+              </a>
+
+              <a class="button secondary-button" href="#contact">
+                יצירת קשר
+              </a>
+            </div>
+
+          </div>
+
+          <figure class="profile-card panel">
+            <img
+              class="profile-image"
+              src="assets/profile.webp"
+              alt="תמונה של דוד יאנובסקי"
+              width="800"
+              height="800"
+            >
+          </figure>
+        </section>
+
+
+        <!-- About + Skills -->
+        <div class="info-row">
+
+          <section class="content-section panel" id="about">
+            <h2>קצת עליי</h2>
+
+            <p>
+              מאז גיל קטן אני אוהב את תחום התוכנה והמחשבים,
+              ובעיקר נהנה לפתור בעיות מורכבות באמצעות אוטומציות
+              שמייעלות תהליכים ומקלות על העבודה.
+            </p>
+          </section>
+
+          <section class="content-section panel" id="skills">
+            <h2>הכישורים שלי</h2>
+
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>Bash</li>
+              <li>Linux</li>
+              <li>Networking</li>
+              <li>Git</li>
+            </ul>
+          </section>
+
+        </div>
+        <section
+          class="content-section projects-section"
+          id="projects"
+        >
+          <h2>פרויקטים</h2>
+
+          <div class="projects-list">
+
+            <article class="project">
+              <h3>EZTasker - מערכת לניהול משימות</h3>
+              <p>
+                מערכת חכמה לתעדוף משימות בארגון, המחלקת את העבודה
+                בין העובדים בהתאם להכשרתם, ניסיונם והשכלתם.
+
+                מטרת המערכת היא לייעל את חלוקת העומסים,
+                לשפר את תפוקת הצוות ולהבטיח חלוקת עבודה
+                מהירה, יעילה והוגנת יותר.
+              </p>
+            </article>
+
+
+            <article class="project">
+              <h3>FLEX – Fast Log Event eXecutor</h3>
+
+              <p>
+                מערכת חכמה לניטור וטיפול אוטומטי בתקלות שרתים
+                בזמן אמת. המערכת אוספת ומנתחת לוגים ממספר שרתים,
+                מזהה חריגות ותקלות ומחליטה כיצד לפעול בהתאם
+                לסוג האירוע.
+              </p>
+              <p>
+                בעת זיהוי תקלה, FLEX יכולה לבצע פעולות אוטומטיות
+                כגון הרצת פקודות, הפעלה מחדש של שירותים,
+                כיבוי או אתחול שרת ושליחת התראה לגורם הרלוונטי.
+              </p>
+
+              <p>
+                מטרת המערכת היא לקצר את זמן התגובה לתקלות,
+                להפחית התערבות ידנית ולשפר את זמינות
+                ויציבות המערכות.
+              </p>
+            </article>
+
+          </div>
+        </section>
+
+        <section class="content-section panel" id="contact">
+          <h2>יצירת קשר</h2>
+
+          <ul class="contact-list">
+
+            <li>
+              <strong>טלפון:</strong>
+
+              <a href="tel:0501234567" dir="ltr">
+                050-1234567
+              </a>
+            </li>
+
+
+            <li>
+              <strong>דוא״ל:</strong>
+
+              <a
+                href="mailto:david.yanovsky@codingnow.com"
+                dir="ltr"
+              >
+                david.yanovsky@codingnow.com
+              </a>
+            </li>
+
+
+            <li>
+              <strong>GitHub:</strong>
+
+              <a
+                href="https://github.com/davidyan21"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                לפרופיל GitHub
+              </a>
+            </li>
+
+
+            <li>
+              <strong>LinkedIn:</strong>
+
+              <a
+                href="https://www.linkedin.com/in/david-yanovsky-9a46691b2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                לפרופיל LinkedIn
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+      </main>
+
+
+      <footer class="site-footer">
+        <p>
+דוד יאנובסקי 2026
+        </p>
+      </footer>
+
+    </div>
+  </body>
+</html>
